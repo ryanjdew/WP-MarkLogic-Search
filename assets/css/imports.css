@@ -1,0 +1,38 @@
+.ml-wpsearch-import-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#ml-wpsearch-import-submit {
+  display: block;
+  margin-top: 10px;
+}
+
+.ml-wpsearch-import-wrap .ml-wpsearch-import-form,
+.ml-wpsearch-import-wrap .ml-wpsearch-import-imports {
+  float: left;
+}
+
+.ml-wpsearch-import-wrap .ml-wpsearch-import-form {
+  width: 30%;
+}
+
+.ml-wpsearch-import-wrap .ml-wpsearch-import-imports {
+  width: 70%;
+}
+
+@media only screen and (max-width: 780px) {
+  .ml-wpsearch-import-wrap .ml-wpsearch-import-form,
+  .ml-wpsearch-import-wrap .ml-wpsearch-import-imports {
+    float: none;
+    width: 100%;
+  }
+
+  .ml-wpsearch-import-wrap .ml-wpsearch-import-form {
+    margin-bottom: 20px;
+  }
+
+  .ml-wpsearch-import-form label {
+    margin-bottom: 10px;
+  }
+}
