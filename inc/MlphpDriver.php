@@ -98,7 +98,7 @@ final class MlphpDriver implements Driver
         return new BulkResult($count, $errors);
     }
 
-    private function createDocument($blogId, $post, $postMeta)
+    private function createDocument($blogId, $post, $postMeta=null)
     {
         return new Document($this->client, sprintf('/%s.xml', apply_filters(
             'ml_wpsearch_document_uri',
